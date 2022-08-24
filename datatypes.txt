@@ -1,1 +1,58 @@
 #bonventure
+
+Standard Types
+numbers, strings,Booleans, ranges, and regular expressions.
+
+numbers 
+According to their size, there are two types of integers, one is Bignum and second is Fixnum.
+use of numbers with methods  puts "1".to_i
+
+floats   puts height = 70.82
+
+ supports integers and floating point numbers.
+Strings are objects of class String.
+
+'That\'s right'
+String is probably the largest built-in Ruby class, with over 75 standard methods.
+ #{dog_name}
+ #strings methods
+
+ranges example as sequences , conditions , intervals
+(1..10).to_a
+
+Regular expressions are used to match patterns against strings.
+
+other
+Arrays: An array stores data or list of data. It can contain all types of data.
+example 
+array
+ group1 = ['Benard', 'Stan' , 'Vinn'  ]
+ 
+ or
+ group1 = Array.new
+ group1.push('Bonventure')
+
+Hashes
+person = {
+  first_name: "Sam",
+  last_name: "Wale",
+  age: 29
+}
+#output
+puts person
+p person[:first_name]
+
+student = Hash.new
+ student[:name] = "student name"
+ puts student
+
+puts "#{person[:first_name]} #{person[:last_name]} is #{person[:age]} years old."
+
+ Symbols are light-weight strings. A symbol is preceded by a colon (:)
+ hey are similar to strings except that they take up less memory and have better performance. 
+
+ basketball_team = {:center => "Shaquille O'Neal", :forward => "LeBron James", :guard => "Steph Curry"}
+ puts basketball_team[:center]
+
+http://www.ruby-lang.org/
+http://dev.rubycentral.com/
